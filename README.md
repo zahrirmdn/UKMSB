@@ -2,6 +2,7 @@
 
 Nama Kelompok : 
 - Ahmadian Zahri Ramadhan (434221010)
+- Yahya Ashabul Yamin (434221011)
 
 Judul Aplikasi : UKM Sepak Bola Universitas Airlangga
 
