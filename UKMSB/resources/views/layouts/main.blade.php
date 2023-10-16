@@ -38,12 +38,12 @@
 
 				<div class="collapse navbar-collapse" id="navbarsFurni">
 					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-						<li class="nav-item active">
-							<a class="nav-link" href="index.html">Home</a>
+						<li class="nav-item {{ ($title === "Home") ? 'active' : ' ' }}">
+							<a class="nav-link" href="/">Home</a>
 						</li>
-						<li><a class="nav-link" href="shop.html">Event</a></li>
-						<li><a class="nav-link" href="about.html">Achievement</a></li>
-						<li><a class="nav-link" href="views/about.blade.php">About Us</a></li>
+						<li class="{{ ($title === "Event") ? 'active' : '' }}"><a class="nav-link" href="/">Event</a></li>
+						<li><a class="nav-link {{ ($title === "Achievement") ? 'active' : '' }}" href="viee">Achievement</a></li>
+						<li class="{{ ($title === "About") ? 'active' : '' }}"><a class="nav-link" href="about">About Us</a></li>
                         <li><a class="nav-link" href="services.html">Sign Up</a></li>
 					</ul>
 				</div>
@@ -51,28 +51,8 @@
 		</nav>
 		<!-- End Header/Navigation -->
 
-        <!-- Start Hero Section -->
-			<div class="hero">
-				<div class="container">
-					<div class="row justify-content-between">
-						<div class="col-lg-5">
-							<div class="intro-excerpt">
-								<h1>Welcome to Our Football Club</h1>
-								<p class="mb-4">Experience the Thrill of the Game with Us</p>
-								<p><a href="" class="btn btn-secondary me-2">Login</a></p>
-							</div>
-						</div>
-						<div class="col-lg-7">
-							<div class="hero-img-wrap">
-								<img src="images/logo_UKM_Sepakbola.png" class="img-fluid">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		<!-- End Hero Section -->
 
-<div class="container">
+<div class="container-flex">
     @yield('container')
 </div>
 

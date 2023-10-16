@@ -25,3 +25,22 @@ Route::get('/about', function () {
     ]);
 });
 
+Route::get('/shop', function () {
+    return view('shop', [
+        "title" => "Shop"
+    ]);
+});
+
+Route::get('/checkout', function () {
+    return view('checkout', [
+        "title" => "Checkout"
+    ]);
+});
+
+Route::get('/cart', function () {
+    return view('cart', [
+        "title" => "Cart"
+    ]);
+});
+
+

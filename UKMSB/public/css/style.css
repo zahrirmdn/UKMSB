@@ -274,6 +274,7 @@ a {
   .why-choose-section .img-wrap {
     position: relative; }
     .why-choose-section .img-wrap:before {
+      margin-top: 170px;
       position: absolute;
       content: "";
       width: 255px;
@@ -286,7 +287,10 @@ a {
       transform: translate(-40%, -40%);
       z-index: -1; }
     .why-choose-section .img-wrap img {
-      border-radius: 20px; }
+      border-radius: 20px;
+      margin-top: 180px;
+      margin-left: -40px;}
+
 
 .feature {
   margin-bottom: 30px; }

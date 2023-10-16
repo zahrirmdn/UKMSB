@@ -2,6 +2,27 @@
 
 @section('container')
 
+  <!-- Start Hero Section -->
+  <div class="hero">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-5">
+                <div class="intro-excerpt">
+                    <h1>Welcome to Our Football Club</h1>
+                    <p class="mb-4">Experience the Thrill of the Game with Us</p>
+                    <p><a href="" class="btn btn-secondary me-2">Login</a></p>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="hero-img-wrap">
+                    <img src="images/logo_UKM_Sepakbola.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Hero Section -->
+
 		<!-- Start Why Choose Us Section -->
 		<div class="why-choose-section">
 			<div class="container">
@@ -56,7 +77,7 @@
 
 					<div class="col-lg-5">
 						<div class="img-wrap">
-							<img src="images/why-choose-us-img.jpg" alt="Image" class="img-fluid">
+							<img src="images/FUTSAL.jpg" alt="Image" class="img-fluid">
 						</div>
 					</div>
 
