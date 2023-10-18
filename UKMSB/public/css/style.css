@@ -274,7 +274,7 @@ a {
   .why-choose-section .img-wrap {
     position: relative; }
     .why-choose-section .img-wrap:before {
-      margin-top: 170px;
+      margin-top: 230px;
       position: absolute;
       content: "";
       width: 255px;
