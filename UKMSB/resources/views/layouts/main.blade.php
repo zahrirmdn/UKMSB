@@ -41,10 +41,10 @@
 						<li class="nav-item {{ ($title === "Home") ? 'active' : ' ' }}">
 							<a class="nav-link" href="/">Home</a>
 						</li>
-						<li class="{{ ($title === "Event") ? 'active' : '' }}"><a class="nav-link" href="/">Event</a></li>
+						<li class="{{ ($title === "Event") ? 'active' : '' }}"><a class="nav-link" href="/event">Event</a></li>
 						<li><a class="nav-link {{ ($title === "Achievement") ? 'active' : '' }}" href="viee">Achievement</a></li>
 						<li class="{{ ($title === "About") ? 'active' : '' }}"><a class="nav-link" href="about">About Us</a></li>
-                        <li><a class="nav-link" href="services.html">Sign Up</a></li>
+                        <li><a class="nav-link" href="/login">Sign Up</a></li>
 					</ul>
 				</div>
 			</div>

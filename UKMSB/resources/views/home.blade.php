@@ -10,7 +10,7 @@
                 <div class="intro-excerpt">
                     <h1>Welcome to Our Football Club</h1>
                     <p class="mb-4">Experience the Thrill of the Game with Us</p>
-                    <p><a href="" class="btn btn-secondary me-2">Login</a></p>
+                    <p><a href="/login" class="btn btn-secondary me-2">Login</a></p>
                 </div>
             </div>
             <div class="col-lg-7">
@@ -29,7 +29,7 @@
 				<div class="row justify-content-between">
 					<div class="col-lg-6">
 						<h2 class="section-title">Why Choose Us</h2>
-						<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+						<p>Mari gabung bersama kami mewujudkan cita-cita bangsa di dunia sepakbola dunia!</p>
 
 						<div class="row my-5">
 							<div class="col-6 col-md-6">
@@ -189,7 +189,7 @@
 			<div class="container">
 				<div class="row mb-5">
 					<div class="col-md-6">
-						<h2 class="section-title">Recent Blog</h2>
+						<h2 class="section-title">Recent Event</h2>
 					</div>
 					<div class="col-md-6 text-start text-md-end">
 						<a href="#" class="more">View All Posts</a>
@@ -224,7 +224,7 @@
 
 					<div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
 						<div class="post-entry">
-							<a href="#" class="post-thumbnail"><img src="images/post-3.jpg" alt="Image" class="img-fluid"></a>
+							<a href="#" class="post-thumbnail"><img src="images/gambar_mancity.jpeg" alt="Image" class="img-fluid" height="800px" width="700px"></a>
 							<div class="post-content-entry">
 								<h3><a href="#">Small Space Furniture Apartment Ideas</a></h3>
 								<div class="meta">

@@ -37,9 +37,15 @@ Route::get('/checkout', function () {
     ]);
 });
 
-Route::get('/cart', function () {
-    return view('cart', [
-        "title" => "Cart"
+Route::get('/event', function () {
+    return view('event', [
+        "title" => "Event"
+    ]);
+});
+
+Route::get('/login', function () {
+    return view('login', [
+        "title" => "Login"
     ]);
 });
 
