@@ -9,7 +9,8 @@
                     <div class="col-lg-5">
                         <div class="intro-excerpt">
                             <h1>Achievement</h1>
-                            <p class="mb-4">Experience the Thrill of the Game with Us</p>
+                            <p class="mb-4">See the achievements that have been achieved by UKMSB!</p>
+                            <p><a href="/login" class="btn btn-secondary me-2">Login</a></p>
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -159,9 +160,7 @@
 									</div>
 								</div>
 								<!-- END item -->
-
 							</div>
-
 						</div>
 					</div>
 				</div>

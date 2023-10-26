@@ -9,8 +9,8 @@
                             <div class="col-lg-5">
                                 <div class="intro-excerpt">
                                     <h1>Event</h1>
-                                    <p class="mb-4">Beli tiket untuk menonton pertandingan UKMSB terdekat!</p>
-                                    <p><a href="" class="btn btn-secondary me-2">Shop Now</a></p>
+                                    <p class="mb-4">Buy tickets to watch the nearest UKMSB match!</p>
+                                    <p><a href="/login" class="btn btn-secondary me-2">Login</a></p>
                                 </div>
                             </div>
                             <div class="col-lg-7">
