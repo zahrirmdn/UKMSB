@@ -274,7 +274,7 @@ a {
   .why-choose-section .img-wrap {
     position: relative; }
     .why-choose-section .img-wrap:before {
-      margin-top: 230px;
+      margin-top: 180px;
       position: absolute;
       content: "";
       width: 255px;
@@ -288,7 +288,7 @@ a {
       z-index: -1; }
     .why-choose-section .img-wrap img {
       border-radius: 20px;
-      margin-top: 180px;
+      margin-top: 100px;
       margin-left: -40px;}
 
 

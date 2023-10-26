@@ -25,9 +25,9 @@ Route::get('/about', function () {
     ]);
 });
 
-Route::get('/shop', function () {
-    return view('shop', [
-        "title" => "Shop"
+Route::get('/achievement', function () {
+    return view('achievement', [
+        "title" => "achievement"
     ]);
 });
 
@@ -49,4 +49,8 @@ Route::get('/login', function () {
     ]);
 });
 
-
+Route::get('/cart', function () {
+    return view('cart', [
+        "title" => "Cart"
+    ]);
+});

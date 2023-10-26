@@ -9,7 +9,7 @@
 						<div class="col-lg-5">
 							<div class="intro-excerpt">
 								<h1>About Us</h1>
-								<p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+								<p class="mb-4">Get to know our membership more closely!</p>
 								<p><a href="" class="btn btn-secondary me-2">Login</a></p>
 							</div>
 						</div>
@@ -38,10 +38,9 @@
 					<!-- Start Column 1 -->
 					<div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
 						<img src="images/person_1.jpg" class="img-fluid mb-5">
-						<h3 clas><a href="#"><span class="">Evan</span> Aditya</a></h3>
-            <span class="d-block position mb-4">CEO, Founder, Atty.</span>
-            <p>Separated they live in.
-            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						<h3 clas><a href="#"><span class="">Ahmadian</span> Zahri</a></h3>
+            <span class="d-block position mb-4">Ketua Umum, UKMSB.</span>
+            <p>Ahmadian Zahri Ramadhan adalah Ketua Umum Fakultas Vokasi di UKMSB, membawa semangat yang tinggi dalam UKMSB. Dengan latar belakang yang kuat, kepemimpinannya telah membawa inovasi dan perubahan positif bagi UKMSB.</p>
             <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
 					</div>
 					<!-- End Column 1 -->
@@ -50,10 +49,9 @@
 					<div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
 						<img src="images/person_2.jpg" class="img-fluid mb-5">
 
-						<h3 clas><a href="#"><span class="">Aiden</span> Malik</a></h3>
-            <span class="d-block position mb-4">CEO, Founder, Atty.</span>
-            <p>Separated they live in.
-            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						<h3 clas><a href="#"><span class="">Dani</span> Ruliansyah</a></h3>
+            <span class="d-block position mb-4">Sekretaris, UKMSB.</span>
+            <p>Dani Ruliansyah, Fakultas Ekonomi dan Bisnis, sekretaris di UKMSB, membawa keahlian administratif yang luar biasa. Dengan latar belakang di bidang ekonomi, ia memainkan peran penting dalam mendukung operasional fakultas.</p>
             <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
 
 					</div>
@@ -63,9 +61,8 @@
 					<div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
 						<img src="images/person_3.jpg" class="img-fluid mb-5">
 						<h3 clas><a href="#"><span class="">Rizky</span> Alvaro</a></h3>
-            <span class="d-block position mb-4">CEO, Founder, Atty.</span>
-            <p>Separated they live in.
-            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <span class="d-block position mb-4">Bendahara, UKMSB.</span>
+            <p>Rizky Alvaro adalah Bendahara di Fakultas Hukum UKMSB, menunjukkan dedikasi tinggi dalam pengelolaan keuangan. Dengan latar belakang di bidang hukum, ia membawa wawasan yang berharga dalam tanggung jawabnya.</p>
             <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
 					</div>
 					<!-- End Column 3 -->
@@ -75,9 +72,8 @@
 						<img src="images/person_4.jpg" class="img-fluid mb-5">
 
 						<h3 clas><a href="#"><span class="">Alya</span> Jasmine</a></h3>
-            <span class="d-block position mb-4">CEO, Founder, Atty.</span>
-            <p>Separated they live in.
-            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <span class="d-block position mb-4">Asisten Ketua, UKMSB.</span>
+            <p>Alya Jasmine adalah seorang mahasiswa Fakultas Ilmu Sosial dan Ilmu Politik (FISIP) yang menjabat sebagai Asisten Ketua di UKMSB. Dengan dedikasi tinggi, Alya aktif terlibat dalam berbagai inisiatif dan kegiatan organisasi.</p>
             <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
 
 

@@ -29,46 +29,46 @@
 				<div class="row justify-content-between">
 					<div class="col-lg-6">
 						<h2 class="section-title">Why Choose Us</h2>
-						<p>Mari gabung bersama kami mewujudkan cita-cita bangsa di dunia sepakbola dunia!</p>
+						<p>Come join us in realizing the nation's dreams in the world of football!</p>
 
 						<div class="row my-5">
 							<div class="col-6 col-md-6">
 								<div class="feature">
-									<div class="icon">
+									<!--<div class="icon">
 										<img src="images/truck.svg" alt="Image" class="imf-fluid">
-									</div>
-									<h3>Fast &amp; Free Shipping</h3>
-									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+									</div> -->
+									<h3>Skill and Competency Development</h3>
+									<p>Joining this UKM can help you develop specific skills and competencies related to the field of the UKM.</p>
 								</div>
 							</div>
 
 							<div class="col-6 col-md-6">
 								<div class="feature">
-									<div class="icon">
+									<!--<div class="icon">
 										<img src="images/bag.svg" alt="Image" class="imf-fluid">
-									</div>
-									<h3>Easy to Shop</h3>
-									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+									</div> -->
+									<h3>Social Experience and Networking</h3>
+									<p>Being a part of this UKM allows you to meet new people and expand your social network.</p>
 								</div>
 							</div>
 
 							<div class="col-6 col-md-6">
 								<div class="feature">
-									<div class="icon">
+									<!--<div class="icon">
 										<img src="images/support.svg" alt="Image" class="imf-fluid">
-									</div>
-									<h3>24/7 Support</h3>
-									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+									</div> -->
+									<h3>Leadership and Responsibility Growth</h3>
+									<p>Being active in this UKM can help you develop leadership skills and learn how to manage responsibilities.</p>
 								</div>
 							</div>
 
 							<div class="col-6 col-md-6">
 								<div class="feature">
-									<div class="icon">
+									<!--<div class="icon">
 										<img src="images/return.svg" alt="Image" class="imf-fluid">
-									</div>
-									<h3>Hassle Free Returns</h3>
-									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+									</div> -->
+									<h3>Enriching Your Campus Experience</h3>
+									<p>Engagement in UKMs can enrich your overall campus experience. It makes your college years more colorful and memorable.</p>
 								</div>
 							</div>
 
@@ -202,9 +202,9 @@
 						<div class="post-entry">
 							<a href="#" class="post-thumbnail"><img src="images/afc.jpg" alt="Image" class="img-fluid"></a>
 							<div class="post-content-entry">
-								<h3><a href="#">First Time Home Owner Ideas</a></h3>
+								<h3><a href="#">UKMSB Menguasai Lapangan: Tim Sepakbola Raih Kemenangan Gemilang!</a></h3>
 								<div class="meta">
-									<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 19, 2021</a></span>
+									<span>by <a href="#">Ghandi Sughandi</a></span> <span>on <a href="#">Oct 19, 2023</a></span>
 								</div>
 							</div>
 						</div>
@@ -214,9 +214,9 @@
 						<div class="post-entry">
 							<a href="#" class="post-thumbnail"><img src="images/indomalay.jpg" alt="Image" class="img-fluid"></a>
 							<div class="post-content-entry">
-								<h3><a href="#">How To Keep Your Furniture Clean</a></h3>
+								<h3><a href="#">Bintang Muda UKMSB Bersinar di Kompetisi Sepakbola Regional</a></h3>
 								<div class="meta">
-									<span>by <a href="#">Robert Fox</a></span> <span>on <a href="#">Dec 15, 2021</a></span>
+									<span>by <a href="#">Dani Arjuna</a></span> <span>on <a href="#">Oct 15, 2023</a></span>
 								</div>
 							</div>
 						</div>
@@ -226,9 +226,9 @@
 						<div class="post-entry">
 							<a href="#" class="post-thumbnail"><img src="images/gambar_mancity.jpeg" alt="Image" class="img-fluid" height="800px" width="700px"></a>
 							<div class="post-content-entry">
-								<h3><a href="#">Small Space Furniture Apartment Ideas</a></h3>
+								<h3><a href="#">Prestasi Luar Biasa: UKMSB Menyapu Bersih Kompetisi Sepakbola Interkampus</a></h3>
 								<div class="meta">
-									<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 12, 2021</a></span>
+									<span>by <a href="#">Rafifun Lanciau</a></span> <span>on <a href="#">Oct 12, 2023</a></span>
 								</div>
 							</div>
 						</div>
