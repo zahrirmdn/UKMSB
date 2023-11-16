@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SignupController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,37 +15,37 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home',[
+    return view('pages/home',[
         "title" => "Home"
     ]);
 });
 
 Route::get('/about', function () {
-    return view('about', [
+    return view('pages/about', [
         "title" => "About"
     ]);
 });
 
 Route::get('/achievement', function () {
-    return view('achievement', [
+    return view('pages/achievement', [
         "title" => "achievement"
     ]);
 });
 
 Route::get('/checkout', function () {
-    return view('checkout', [
+    return view('pages/checkout', [
         "title" => "Checkout"
     ]);
 });
 
 Route::get('/event', function () {
-    return view('event', [
+    return view('pages/event', [
         "title" => "Event"
     ]);
 });
 
 Route::get('/login', function () {
-    return view('login', [
+    return view('pages/auth/login', [
         "title" => "Login"
     ]);
 });
@@ -54,3 +55,8 @@ Route::get('/cart', function () {
         "title" => "Cart"
     ]);
 });
+
+
+
+Route::resource('signup', SignupController::class);
+
