@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SignupController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\CartController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -51,7 +54,7 @@ Route::get('/login', function () {
 });
 
 Route::get('/cart', function () {
-    return view('cart', [
+    return view('pages/cart', [
         "title" => "Cart"
     ]);
 });
@@ -59,4 +62,20 @@ Route::get('/cart', function () {
 
 
 Route::resource('signup', SignupController::class);
+
+
+Route::get('login', [LoginController::class, 'showLoginForm'])->name('login.show');
+Route::post('login', [LoginController::class, 'login'])->name('login');
+Route::post('logout', [LoginController::class, 'logout'])->name('logout');
+
+
+
+
+Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
+
+
+
+Route::get('/cart', [CartController::class, 'showCart'])->name('cart');
+Route::get('/add-to-cart/{product_id}', [CartController::class, 'addToCart'])->name('addToCart');
+
 

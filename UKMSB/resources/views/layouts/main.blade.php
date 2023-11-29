@@ -37,16 +37,45 @@
 				</button>
 
 				<div class="collapse navbar-collapse" id="navbarsFurni">
-					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-						<li class="nav-item {{ ($title === "Home") ? 'active' : ' ' }}">
-							<a class="nav-link" href="/">Home</a>
-						</li>
-						<li class="{{ ($title === "Event") ? 'active' : '' }}"><a class="nav-link" href="/event">Event</a></li>
-						<li class="{{ ($title === "Achievemenet") ? 'active' : '' }}"><a class="nav-link" href="/achievement">Achievement</a></li>
-						<li class="{{ ($title === "About") ? 'active' : '' }}"><a class="nav-link" href="about">About Us</a></li>
+                    <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+                        <li class="nav-item {{ ($title === "Home") ? 'active' : ' ' }}">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="{{ ($title === "Event") ? 'active' : '' }}"><a class="nav-link" href="/event">Event</a></li>
+                        <li class="{{ ($title === "Achievemenet") ? 'active' : '' }}"><a class="nav-link" href="/achievement">Achievement</a></li>
+                        <li class="{{ ($title === "About") ? 'active' : '' }}"><a class="nav-link" href="about">About Us</a></li>
+                        @if(!Auth::check())
                         <li><a class="nav-link" href="/login">Sign Up</a></li>
-					</ul>
-				</div>
+                        @else
+                        <li class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                {{ Auth::user()->nama_mhs }}
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <div class="dropdown-header">
+                                        <strong>{{ Auth::user()->nama_mhs }}</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <form action="/logout" method="post">
+                                        @csrf
+                                        <button type="submit" class="dropdown-item">
+                                            <i class="bibi-box-arrow-right"></i> Log out
+                                        </button>
+                                    </form>
+                                </li>
+                            </ul>
+
+
+                        </li>
+                        @endif <!-- Add this line to close the if statement -->
+                    </ul>
+                </div>
+
 			</div>
 		</nav>
 		<!-- End Header/Navigation -->
@@ -135,3 +164,5 @@
 	</body>
 
 </html>
+
+

@@ -63,8 +63,8 @@
                                         });
                                     @endif
                                 </script>
-
                             </div>
+
                             <!-- Form Sign Up -->
                             <div class="sign-up-form">
                                 <br>
@@ -110,3 +110,4 @@
 </body>
 
 </html>
+
