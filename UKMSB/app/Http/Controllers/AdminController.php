@@ -11,7 +11,7 @@ class AdminController extends Controller
     public function dashboard()
     {
         // Your logic for the admin dashboard goes here
-        return view('pages/admin');
+        return view('pages/admin/admin');
     }
 
     // Other methods for handling admin-related functionality

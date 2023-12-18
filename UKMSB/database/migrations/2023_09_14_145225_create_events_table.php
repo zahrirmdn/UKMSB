@@ -14,10 +14,13 @@ return new class extends Migration
         Schema::create('events', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('nama_event',20)->unique();
+            $table->string('nama_event', 20)->unique();
             $table->dateTime('tgl_event');
+            $table->string('gambar')->nullable();
+            $table->string('harga'); // Change the data type to string
         });
     }
+
 
     /**
      * Reverse the migrations.

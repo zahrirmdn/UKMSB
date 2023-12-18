@@ -36,19 +36,18 @@
                         <div class="col-6 col-md-6">
                             <div class="feature">
                                 <!--<div class="icon">
-                      <img src="images/truck.svg" alt="Image" class="imf-fluid">
-                     </div> -->
+                          <img src="images/truck.svg" alt="Image" class="imf-fluid">
+                         </div> -->
                                 <h3>Skill and Competency Development</h3>
                                 <p>Joining this UKM can help you develop specific skills and competencies related to the
                                     field of the UKM.</p>
                             </div>
                         </div>
-
                         <div class="col-6 col-md-6">
                             <div class="feature">
                                 <!--<div class="icon">
-                      <img src="images/bag.svg" alt="Image" class="imf-fluid">
-                     </div> -->
+                          <img src="images/bag.svg" alt="Image" class="imf-fluid">
+                         </div> -->
                                 <h3>Social Experience and Networking</h3>
                                 <p>Being a part of this UKM allows you to meet new people and expand your social network.
                                 </p>
@@ -58,8 +57,8 @@
                         <div class="col-6 col-md-6">
                             <div class="feature">
                                 <!--<div class="icon">
-                      <img src="images/support.svg" alt="Image" class="imf-fluid">
-                     </div> -->
+                          <img src="images/support.svg" alt="Image" class="imf-fluid">
+                         </div> -->
                                 <h3>Leadership and Responsibility Growth</h3>
                                 <p>Being active in this UKM can help you develop leadership skills and learn how to manage
                                     responsibilities.</p>
@@ -69,8 +68,8 @@
                         <div class="col-6 col-md-6">
                             <div class="feature">
                                 <!--<div class="icon">
-                      <img src="images/return.svg" alt="Image" class="imf-fluid">
-                     </div> -->
+                          <img src="images/return.svg" alt="Image" class="imf-fluid">
+                         </div> -->
                                 <h3>Enriching Your Campus Experience</h3>
                                 <p>Engagement in UKMs can enrich your overall campus experience. It makes your college years
                                     more colorful and memorable.</p>
@@ -207,66 +206,8 @@
     </div>
     <!-- End Testimonial Slider -->
 
-    <!-- Start Blog Section -->
-    <div class="blog-section">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-6">
-                    <h2 class="section-title">Recent Event</h2>
-                </div>
-                <div class="col-md-6 text-start text-md-end">
-                    <a href="#" class="more">View All Posts</a>
-                </div>
-            </div>
+    @include('partials/_blog')
 
-            <div class="row">
-
-                <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
-                    <div class="post-entry">
-                        <a href="#" class="post-thumbnail"><img src="images/afc.jpg" alt="Image"
-                                class="img-fluid"></a>
-                        <div class="post-content-entry">
-                            <h3><a href="#">UKMSB Menguasai Lapangan: Tim Sepakbola Raih Kemenangan Gemilang!</a>
-                            </h3>
-                            <div class="meta">
-                                <span>by <a href="#">Ghandi Sughandi</a></span> <span>on <a href="#">Oct 19,
-                                        2023</a></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
-                    <div class="post-entry">
-                        <a href="#" class="post-thumbnail"><img src="images/indomalay.jpg" alt="Image"
-                                class="img-fluid"></a>
-                        <div class="post-content-entry">
-                            <h3><a href="#">Bintang Muda UKMSB Bersinar di Kompetisi Sepakbola Regional</a></h3>
-                            <div class="meta">
-                                <span>by <a href="#">Dani Arjuna</a></span> <span>on <a href="#">Oct 15,
-                                        2023</a></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
-                    <div class="post-entry">
-                        <a href="#" class="post-thumbnail"><img src="images/gambar_mancity.jpeg" alt="Image"
-                                class="img-fluid" height="800px" width="700px"></a>
-                        <div class="post-content-entry">
-                            <h3><a href="#">Prestasi Luar Biasa: UKMSB Menyapu Bersih Kompetisi Sepakbola
-                                    Interkampus</a></h3>
-                            <div class="meta">
-                                <span>by <a href="#">Rafifun Lanciau</a></span> <span>on <a href="#">Oct 12,
-                                        2023</a></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- End Blog Section -->
+    @yield('blogsection')
+    
 @endsection

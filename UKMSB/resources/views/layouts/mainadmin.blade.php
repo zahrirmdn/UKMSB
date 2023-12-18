@@ -18,10 +18,10 @@
     <meta name="keywords" content="bootstrap, bootstrap4" />
 
     <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link href="css/tiny-slider.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{ asset('css/tiny-slider.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <title>UKMSB</title>
 </head>
 
@@ -40,21 +40,24 @@
 
             <div class="collapse navbar-collapse" id="navbarsFurni">
                 <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-                    <li class="nav-item {{ $title === 'Home' ? 'active' : ' ' }}">
-                        <a class="nav-link" href="/">Home</a>
+                    <li class="nav-item {{ request()->is('admin/dasboard') ? 'active' : '' }}">
+                        <a class="nav-link" href="/admin/dashboard">Home</a>
                     </li>
-                    <li class="{{ $title === 'Event' ? 'active' : '' }}"><a class="nav-link" href="/event">Event</a>
+                    <li class="nav-item {{ request()->is('event') ? 'active' : '' }}">
+                        <a class="nav-link" href="/admin/event">Event</a>
                     </li>
-                    <li class="{{ $title === 'Achievemenet' ? 'active' : '' }}"><a class="nav-link"
-                            href="/achievement">Achievement</a></li>
-                    <li class="{{ $title === 'About' ? 'active' : '' }}"><a class="nav-link" href="about">About
-                            Us</a></li>
+                    <li class="nav-item {{ request()->is('achievement') ? 'active' : '' }}">
+                        <a class="nav-link" href="/admin/achievement">Achievement</a>
+                    </li>
+                    <li class="nav-item {{ request()->is('about') ? 'active' : '' }}">
+                        <a class="nav-link" href="/admin/about">About Us</a>
+                    </li>
                     @if (!Auth::check())
                         <li><a class="nav-link" href="/login">Sign Up</a></li>
                     @else
                         <li class="dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 {{ Auth::user()->nama_mhs }}
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -91,5 +94,7 @@
         @yield('container')
     </div>
 
+<!-- Bootstrap JavaScript -->
+<script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 
 </html>
